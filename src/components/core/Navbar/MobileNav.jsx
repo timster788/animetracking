@@ -7,7 +7,7 @@ import {
   MobileNavHeader as Header,
   MobileNavList as Ul,
   MobileNavListItem as Li,
-  CloseIcon,
+  CloseIcon
 } from './styles';
 
 import closeSvg from './close.svg';
@@ -16,10 +16,7 @@ type Props = { isNavbarActive: boolean, toggleNavbar: any };
 
 export default ({ isNavbarActive, toggleNavbar }: Props) => (
   <div>
-    <Overlay
-      onClick={toggleNavbar}
-      isNavbarActive={isNavbarActive}
-    />
+    <Overlay onClick={toggleNavbar} isNavbarActive={isNavbarActive} />
     <CloseIcon
       onClick={toggleNavbar}
       src={closeSvg}
@@ -28,12 +25,10 @@ export default ({ isNavbarActive, toggleNavbar }: Props) => (
       alt={'close'}
     />
     <Container isNavbarActive={isNavbarActive} className={'sidebar'}>
-      <Header>
-        menu
-      </Header>
+      <Header>menu</Header>
       <Ul>
         <Li>Home</Li>
-        <Li>About</Li>
+        <Li>Register</Li>
         <Li>Login</Li>
       </Ul>
     </Container>

@@ -14,17 +14,22 @@ const ListWrapper = glamorous.div({
   flexWrap: 'wrap',
   justifyContent: 'flex-start',
   '@media(min-width: 1200px)': {
-    padding: '0px 150px',
+    padding: '0px 150px'
   },
   '@media(min-width: 768px)': {
-    padding: '0px 80px',
-  },
+    padding: '0px 80px'
+  }
 });
 
-export default ({ animesData, isFetching }: AnimeStateType): React$Element<any> => (
+export default ({
+  animesData,
+  isFetching
+}: AnimeStateType): React$Element<any> => (
   <div>
     <ListWrapper>
-      {animesData.map((anime, index) => <AnimeItem key={index} {...anime} />)}
+      {animesData.map((anime, index) => (
+        <AnimeItem key={index} {...anime} />
+      ))}
     </ListWrapper>
     {isFetching && (
       <ListWrapper>
