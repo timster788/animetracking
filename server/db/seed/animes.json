@@ -1,0 +1,76 @@
+//mongoimport --db anime_tracker --collection anime --drop --file
+
+[
+  {
+    "_id": "000000000000000000000000",
+    "title": "Cowboy Bebop",
+    "series_type": "Anime",
+    "url": "https://kitsu.io/api/edge/anime/1",
+    "rating": 10,
+
+    "userId": "333333333333333333333300"
+  },
+  {
+    "_id": "000000000000000000000001",
+    "title": "Naruto",
+    "series_type": "Anime",
+    "url": "https://kitsu.io/api/edge/anime/11",
+    "rating": 9,
+
+    "userId": "333333333333333333333300"
+  },
+  {
+    "_id": "000000000000000000000002",
+    "title": "Boku no Hero Academia",
+    "series_type": "Anime",
+    "url": "https://kitsu.io/api/edge/anime/11469",
+    "rating": 10,
+
+    "userId": "333333333333333333333300"
+  },
+  {
+    "_id": "000000000000000000000003",
+    "title": "Cowboy Bebop",
+    "series_type": "Anime",
+    "url": "https://kitsu.io/api/edge/anime/1",
+    "rating": 10,
+
+    "userId": "333333333333333333333300"
+  },
+  {
+    "_id": "000000000000000000000004",
+    "title": "Attack on Titan",
+    "series_type": "Anime",
+    "url": "https://kitsu.io/api/edge/anime/7442",
+    "rating": 10,
+
+    "userId": "333333333333333333333301"
+  },
+  {
+    "_id": "000000000000000000000005",
+    "title": "No Game No Life",
+    "series_type": "Anime",
+    "url": "https://kitsu.io/api/edge/anime/7880",
+    "rating": 10,
+
+    "userId": "333333333333333333333301"
+  },
+  {
+    "_id": "000000000000000000000006",
+    "title": "Overlord",
+    "series_type": "Anime",
+    "url": "https://kitsu.io/api/edge/anime/9965",
+    "rating": 10,
+
+    "userId": "333333333333333333333301"
+  },
+  {
+    "_id": "000000000000000000000007",
+    "title": "Fullmetal Alchemist: Brotherhood",
+    "series_type": "Anime",
+    "url": "https://kitsu.io/api/edge/anime/3936",
+    "rating": 10,
+
+    "userId": "333333333333333333333301"
+  }
+]
